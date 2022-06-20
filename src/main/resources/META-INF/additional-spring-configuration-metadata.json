@@ -1,0 +1,53 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.sqlite.jdbc-url",
+      "type": "java.lang.String",
+      "description": "default data source sqlite."
+    },
+    {
+      "name": "spring.datasource.sqlite.driver-class-name",
+      "type": "java.lang.String",
+      "description": "default data source sqlite."
+    },
+    {
+      "name": "spring.datasource.mariadb.jdbc-url",
+      "type": "java.lang.String",
+      "description": "mariadb default config url."
+    },
+    {
+      "name": "spring.datasource.mariadb.driver-class-name",
+      "type": "java.lang.String",
+      "description": "mariadb default config driver-class-name."
+    },
+    {
+      "name": "spring.datasource.mariadb.username",
+      "type": "java.lang.String",
+      "description": "mariadb default config username."
+    },
+    {
+      "name": "spring.datasource.mariadb.password",
+      "type": "java.lang.String",
+      "description": "mariadb default config password."
+    },{
+      "name": "spring.datasource.oracle.jdbc-url",
+      "type": "java.lang.String",
+      "description": "oracle default config url."
+    },
+    {
+      "name": "spring.datasource.oracle.driver-class-name",
+      "type": "java.lang.String",
+      "description": "oracle default config driver-class-name."
+    },
+    {
+      "name": "spring.datasource.oracle.username",
+      "type": "java.lang.String",
+      "description": "oracle default config username."
+    },
+    {
+      "name": "spring.datasource.oracle.password",
+      "type": "java.lang.String",
+      "description": "oracle default config password."
+    }
+  ]
+}

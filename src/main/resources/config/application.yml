@@ -1,0 +1,15 @@
+server:
+  port: 8088
+spring:
+  profiles:
+    active: dev
+  application:
+    name: dbService
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    database-platform: lc.dbservice.common.sqlite.SQLiteDialect
+  jackson:
+    property-naming-strategy: SNAKE_CASE
